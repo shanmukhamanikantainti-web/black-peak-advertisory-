@@ -7,29 +7,29 @@ import { ArrowUpRight } from 'lucide-react';
 
 export const SelectedWork: React.FC = () => {
   return (
-    <section id="work" className="relative py-36 sm:py-48 border-b border-black/10 bg-[#ffffff] overflow-hidden">
+    <section id="work" className="relative py-24 sm:py-36 lg:py-48 border-b border-black/10 bg-[#ffffff] overflow-hidden">
       <div className="site-container">
         
         {/* Top Section Label */}
-        <div className="mb-8 sm:mb-10">
+        <div className="mb-6 sm:mb-10">
           <SectionLabel number="03" roman="III" title="SELECTED WORK" />
         </div>
 
         {/* 1. Main Title: Centered Normal/Light Text Occupying Full Width from Left to Right */}
-        <div className="w-full text-center border-b border-black/15 pb-14 mb-20 sm:mb-24">
+        <div className="w-full text-center border-b border-black/15 pb-8 sm:pb-14 mb-12 sm:mb-20 lg:mb-24">
           <motion.h2 
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            className="font-serif text-[clamp(2.45rem,7.35vw,6.37rem)] font-light tracking-tight text-[#000000] uppercase leading-[0.95] w-full"
+            className="font-serif text-[clamp(2.1rem,7.35vw,6.37rem)] font-light tracking-tight text-[#000000] uppercase leading-[0.98] w-full"
           >
             REAL PROBLEMS. REAL SOLUTIONS.
           </motion.h2>
         </div>
 
         {/* 2. Two-Column Layout: Left Projects List + Right Greek Statue Collage Image */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 xl:gap-20 items-start">
           
           {/* Left Column: Projects with Title + One-Line Explanation + Spacing */}
           <div className="lg:col-span-7 flex flex-col justify-start">
@@ -71,7 +71,7 @@ export const SelectedWork: React.FC = () => {
           </div>
 
           {/* Right Column: Greek Statue Collage Artwork in Architectural Blueprint Frame (Decreased by 3%) */}
-          <div className="lg:col-span-5 w-full flex justify-center sticky top-28">
+          <div className="lg:col-span-5 w-full flex justify-center lg:sticky lg:top-28">
             <motion.div
               initial={{ opacity: 0, scale: 0.96 }}
               whileInView={{ opacity: 1, scale: 1 }}

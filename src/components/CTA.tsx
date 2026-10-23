@@ -7,8 +7,7 @@ export const CTA: React.FC = () => {
   return (
     <section 
       id="contact" 
-      className="relative overflow-hidden bg-[#ffffff]"
-      style={{ paddingTop: '160px', paddingBottom: '260px' }}
+      className="relative overflow-hidden bg-[#ffffff] pt-24 sm:pt-36 lg:pt-44 pb-32 sm:pb-48 lg:pb-64"
     >
       {/* Background Architectural Grid Pattern */}
       <div 
@@ -46,7 +45,7 @@ export const CTA: React.FC = () => {
                 href="https://wa.me/917013118455"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center justify-between py-6 px-4 hover:bg-black hover:text-white transition-all duration-300"
+                className="group flex flex-col sm:flex-row sm:items-center justify-between py-5 sm:py-6 px-4 hover:bg-black hover:text-white transition-all duration-300 gap-2 sm:gap-4"
               >
                 <div className="flex items-center gap-4">
                   <span className="text-[11px] text-[#888888] group-hover:text-neutral-400">01 //</span>
@@ -54,9 +53,9 @@ export const CTA: React.FC = () => {
                     WHATSAPP
                   </span>
                 </div>
-                <div className="flex items-center gap-2 text-xs tracking-widest opacity-70 group-hover:opacity-100">
+                <div className="flex items-center justify-between sm:justify-end gap-2 text-xs tracking-widest opacity-70 group-hover:opacity-100 pl-8 sm:pl-0">
                   <span>+91 70131 18455</span>
-                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 shrink-0" />
                 </div>
               </a>
 
@@ -65,7 +64,7 @@ export const CTA: React.FC = () => {
                 href="https://www.instagram.com/blackpeakstd?rpxt=dGdtaWQ1MWZlbzdp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center justify-between py-6 px-4 hover:bg-black hover:text-white transition-all duration-300"
+                className="group flex flex-col sm:flex-row sm:items-center justify-between py-5 sm:py-6 px-4 hover:bg-black hover:text-white transition-all duration-300 gap-2 sm:gap-4"
               >
                 <div className="flex items-center gap-4">
                   <span className="text-[11px] text-[#888888] group-hover:text-neutral-400">02 //</span>
@@ -73,16 +72,16 @@ export const CTA: React.FC = () => {
                     INSTAGRAM
                   </span>
                 </div>
-                <div className="flex items-center gap-2 text-xs tracking-widest opacity-70 group-hover:opacity-100">
+                <div className="flex items-center justify-between sm:justify-end gap-2 text-xs tracking-widest opacity-70 group-hover:opacity-100 pl-8 sm:pl-0">
                   <span>@BLACKPEAKSTD</span>
-                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 shrink-0" />
                 </div>
               </a>
 
               {/* Shortcut 3: Contact (Dial Pad) */}
               <a
                 href="tel:8466834845"
-                className="group flex items-center justify-between py-6 px-4 hover:bg-black hover:text-white transition-all duration-300 border-b border-black/15"
+                className="group flex flex-col sm:flex-row sm:items-center justify-between py-5 sm:py-6 px-4 hover:bg-black hover:text-white transition-all duration-300 border-b border-black/15 gap-2 sm:gap-4"
               >
                 <div className="flex items-center gap-4">
                   <span className="text-[11px] text-[#888888] group-hover:text-neutral-400">03 //</span>
@@ -90,9 +89,9 @@ export const CTA: React.FC = () => {
                     CONTACT
                   </span>
                 </div>
-                <div className="flex items-center gap-2 text-xs tracking-widest opacity-70 group-hover:opacity-100">
+                <div className="flex items-center justify-between sm:justify-end gap-2 text-xs tracking-widest opacity-70 group-hover:opacity-100 pl-8 sm:pl-0">
                   <span>84668 34845</span>
-                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 shrink-0" />
                 </div>
               </a>
 

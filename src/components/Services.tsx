@@ -7,18 +7,18 @@ import { ArrowUpRight } from 'lucide-react';
 
 export const Services: React.FC = () => {
   return (
-    <section id="services" className="relative py-36 sm:py-48 border-b border-black/10 bg-[#ffffff] overflow-hidden">
+    <section id="services" className="relative py-24 sm:py-36 lg:py-48 border-b border-black/10 bg-[#ffffff] overflow-hidden">
       <div className="site-container">
         {/* Top Minimal Section Indicator */}
-        <div className="mb-14 sm:mb-16">
+        <div className="mb-10 sm:mb-14 lg:mb-16">
           <SectionLabel number="02" roman="II" title="CAPABILITIES" />
         </div>
 
         {/* Two-Column Editorial Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-14 lg:gap-20 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 xl:gap-20 items-start">
           
           {/* Left Portion: Classical Line Art Male Head in Architectural Frame (Decreased by 3%) */}
-          <div className="lg:col-span-5 w-full flex justify-center">
+          <div className="lg:col-span-5 w-full flex justify-center order-2 lg:order-1">
             <motion.div 
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -67,7 +67,7 @@ export const Services: React.FC = () => {
           </div>
 
           {/* Right Portion: Heading on Top & Domain List (No Explanations) */}
-          <div className="lg:col-span-7 flex flex-col justify-start">
+          <div className="lg:col-span-7 flex flex-col justify-start order-1 lg:order-2">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -75,7 +75,7 @@ export const Services: React.FC = () => {
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             >
               {/* Right Side Monumental Heading (Decreased by 2%) */}
-              <h2 className="font-serif text-[clamp(2.45rem,5.88vw,4.7rem)] font-light leading-[1.0] tracking-[-0.03em] uppercase text-[#000000] mb-12">
+              <h2 className="font-serif text-[clamp(2.15rem,5.88vw,4.7rem)] font-light leading-[1.0] tracking-[-0.03em] uppercase text-[#000000] mb-8 sm:mb-12">
                 DIGITAL <br />
                 SOLUTIONS <br />
                 <span className="italic font-normal">THAT MATTER.</span>

@@ -30,18 +30,17 @@ export const WhyBlackPeak: React.FC = () => {
   return (
     <section 
       id="why" 
-      className="relative border-b border-black/10 bg-[#ffffff] overflow-hidden"
-      style={{ paddingTop: '120px', paddingBottom: '200px' }}
+      className="relative border-b border-black/10 bg-[#ffffff] overflow-hidden py-24 sm:py-36 lg:py-48"
     >
       <div className="site-container">
         
         {/* Section Label */}
-        <div className="mb-14 sm:mb-16">
+        <div className="mb-10 sm:mb-14 lg:mb-16">
           <SectionLabel number="05" roman="V" title="PHILOSOPHY" />
         </div>
 
         {/* 3-Column Architectural Row: Content (Left) | Image (Middle) | Title (Right) */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 xl:gap-10 items-center">
           
           {/* LEFT: Content Pillars (4 Cols) */}
           <div className="lg:col-span-4 order-2 lg:order-1 flex flex-col justify-center">

@@ -42,12 +42,12 @@ export const Approach: React.FC = () => {
   ];
 
   return (
-    <section id="approach" className="relative py-36 sm:py-48 border-b border-black/10 bg-[#ffffff]">
+    <section id="approach" className="relative py-24 sm:py-36 lg:py-48 border-b border-black/10 bg-[#ffffff]">
       <div className="site-container">
         {/* Header */}
-        <div className="max-w-3xl mb-20 sm:mb-28">
+        <div className="max-w-3xl mb-14 sm:mb-20 lg:mb-28">
           <SectionLabel number="04" roman="IV" title="OUR APPROACH" />
-          <h2 className="font-serif text-[clamp(2.35rem,5.39vw,4.41rem)] font-light leading-[1.05] tracking-[-0.02em] uppercase text-[#000000]">
+          <h2 className="font-serif text-[clamp(2.15rem,5.39vw,4.41rem)] font-light leading-[1.05] tracking-[-0.02em] uppercase text-[#000000]">
             FROM IDEA <br />
             <span className="italic font-normal">TO IMPACT.</span>
           </h2>
